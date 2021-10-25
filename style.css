@@ -1,0 +1,65 @@
+/**
+ * Copyright (C) 2021 Redwan
+ * 
+ * This file is part of lifeGame.
+ * 
+ * lifeGame is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ * 
+ * lifeGame is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ * 
+ * You should have received a copy of the GNU General Public License
+ * along with lifeGame.  If not, see <http://www.gnu.org/licenses/>.
+ */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.main {
+    border: solid  #888 5px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 800px;
+    width: 850px;
+    border-radius: 20px;
+}
+
+.main_row {
+    border: solid  #888 5px;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 80px;
+    width: 80px;
+    border-radius: 20px;
+}
+
+
+.cell {
+    height: 25px;
+    width:  25px;
+    border-radius: 50%;
+    background-color:  darkgreen;
+    margin: 2px;
+    opacity: 0.4;
+    transition: opacity .3;
+}
+
+/* .cell:hover {
+    opacity: 1;
+} */
